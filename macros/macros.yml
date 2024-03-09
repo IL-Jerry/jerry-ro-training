@@ -1,0 +1,12 @@
+version: 2
+
+macros:
+  - name: get_full_name
+    description: standard way to get full name from first name and last name
+    arguments:
+      - name: first_name
+        type: string
+        description: first name
+      - name: last_name
+        type: string
+        description: last name
